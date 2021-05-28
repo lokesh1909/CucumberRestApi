@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-28T16:13:00.921Z",
+        "line": 12,
+        "name": "scenario description",
+        "description": "",
+        "id": "feature-is-to-test-dependencies-and-its-working;scenario-description;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2002100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to \"url.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefination.StepDefine.go_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entered username \"test\" and password \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefination.StepDefine.entered_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user acess request is \"Post\" and \"body\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Post\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"body\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefination.StepDefine.user_acess_request_is_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "test login",
+            "match": {
+              "location": "stepDefination.StepDefine.test_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefination.StepDefine.status_code_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-28T16:13:01.023Z",
+        "line": 13,
+        "name": "scenario description",
+        "description": "",
+        "id": "feature-is-to-test-dependencies-and-its-working;scenario-description;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to \"url.com2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url.com2\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefination.StepDefine.go_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entered username \"test2\" and password \"test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"test2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefination.StepDefine.entered_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user acess request is \"Post\" and \"body\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Post\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"body\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefination.StepDefine.user_acess_request_is_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "test login",
+            "match": {
+              "location": "stepDefination.StepDefine.test_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status code is 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefination.StepDefine.status_code_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature is to test dependencies and its working",
+    "description": "",
+    "id": "feature-is-to-test-dependencies-and-its-working",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login.feature",
+    "tags": []
+  }
+]
